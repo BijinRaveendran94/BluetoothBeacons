@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/beaconName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:text="dfdaf"
+        android:textColor="@android:color/black"/>
+    <TextView
+        android:id="@+id/tv_distance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/beaconName"
+        android:text="ssss"/>
+
+    <TextView
+        android:id="@+id/powervalue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="5dp"
+        android:textStyle="italic"
+        android:paddingBottom="5dp"
+        android:text="dfdaf"
+        android:layout_alignParentRight="true"/>
+
+    <TextView
+        android:id="@+id/beaconId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="10dp"
+        android:text="dfdaf"
+        android:paddingRight="10dp"
+        android:layout_below="@+id/powervalue"
+        android:layout_alignParentRight="true"/>
+
+
+</RelativeLayout>

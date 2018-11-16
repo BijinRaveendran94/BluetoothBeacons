@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Bluetooth Beacons</string>
+    <string name="click_to_set">[click to set]</string>
+
+    <string-array name="stability_enums">
+        <item>STABLE</item>
+        <item>PORTABLE</item>
+        <item>MOBILE</item>
+        <item>ROVING</item>
+    </string-array>
+
+</resources>
